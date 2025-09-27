@@ -1,0 +1,25 @@
+@import "tailwindcss";
+/* Custom styles from the original HTML */
+body {
+  box-sizing: border-box;
+}
+
+.food-card {
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  backdrop-filter: blur(10px);
+}
+
+.food-card:hover {
+  transform: scale(1.05) rotate(1deg);
+  box-shadow: 0 25px 50px rgba(139, 92, 246, 0.3);
+}
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.neon-glow {
+  box-shadow: 0 0 20px rgba(139, 92, 246, 0.5);
+}
